@@ -3662,8 +3662,8 @@ h6 {
     }
 }
 .circular-logo {
-    width: 150px; /* Set the width to your desired size */
-    height: 100px; /* Set the height to your desired size */
+    width: 250px; /* Set the width to your desired size */
+    height: 150px; /* Set the height to your desired size */
     display: block;
     margin: -10px 0 0 -10px; /* Adjust the margin values for positioning */
     border-radius: 50%;
