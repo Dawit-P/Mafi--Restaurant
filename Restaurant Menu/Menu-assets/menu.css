@@ -1,0 +1,109 @@
+body {
+    background-image: url(menu-img/Menu-background-image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #32200e;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 40px;
+}
+
+.arrow {
+    height: 38px;
+    width: 60px;
+    /* border-radius: 10px; */
+    background-color: #32200e;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #ffffff; */
+}
+.arrow a:hover {
+    color: #fff1f1;
+}
+
+.arrow a {
+    font-size: 30px;
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffC107;
+    background-color: #32200e;
+    /* border-radius: 10px; */
+    border: 2px solid #32200e;
+    padding: 5px;
+    margin: 0;
+}
+
+.contents {
+    width: 90%;
+    height: 18px;
+    margin: 80px auto 20px;
+    background-color: #32200e;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.content-2 {
+    width: 90%;
+    height: 18px;
+    margin: 10px auto 20px;
+    background-color: #32200e;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.food-info {
+    flex-grow: 1;
+}
+
+.food-name {
+    color: #ffc107;
+    padding: 2px;
+    margin: 0; 
+    font-size: 17px;
+}
+.description {
+    color: #dbdbdb;
+    padding: 2px;
+    margin: 0;
+    font-size: 14px; 
+}
+.price {
+    color: #ffffff;
+    padding: 2px;
+    margin: 0; 
+    font-size: 17px;
+}
